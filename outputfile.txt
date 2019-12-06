@@ -1,0 +1,75 @@
+Tokens			Lexemes
+OPERATOR        =       %
+OPERATOR        =       %
+Statement could not be identified
+
+IDENTIFIER      =       x
+S -> I = E
+OPERATOR        =       =
+IDENTIFIER      =       a
+E -> TQ
+T -> FR
+F -> id
+OPERATOR        =       +
+R -> e
+Q -> +TQ
+IDENTIFIER      =       b
+T -> FR
+F -> id
+SEPARATOR       =       ;
+R -> e
+Q -> e
+Statement valid 
+
+IDENTIFIER      =       z
+S -> I = E
+OPERATOR        =       =
+IDENTIFIER      =       c
+E -> TQ
+T -> FR
+F -> id
+OPERATOR        =       +
+R -> e
+Q -> +TQ
+IDENTIFIER      =       d
+T -> FR
+F -> id
+SEPARATOR       =       ;
+R -> e
+Q -> e
+Statement valid 
+
+IDENTIFIER      =       a
+S -> I = E
+OPERATOR        =       =
+IDENTIFIER      =       e
+E -> TQ
+T -> FR
+F -> id
+OPERATOR        =       -
+R -> e
+Q -> -TQ
+IDENTIFIER      =       f
+T -> FR
+F -> id
+SEPARATOR       =       ;
+R -> e
+Q -> e
+Statement valid 
+
+IDENTIFIER      =       b
+S -> I = E
+OPERATOR        =       =
+IDENTIFIER      =       g
+E -> TQ
+T -> FR
+F -> id
+OPERATOR        =       *
+R -> *FR
+IDENTIFIER      =       n
+F -> id
+SEPARATOR       =       ;
+R -> e
+Q -> e
+Statement valid 
+
